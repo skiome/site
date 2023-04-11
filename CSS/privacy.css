@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    /* background: url(../images/bg1.jpg) no-repeat center center/cover; */
+    /* background-attachment: fixed; */
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+
+.primary {
+    font-size: 3.5rem;
+    color: #087e86;
+    text-shadow: rebeccapurple 2px 2px 1px;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.secondary {
+    font-size: 1.3rem;
+    font-family: 'Merienda', cursive;
+    margin: 4px;
+    padding: 8px 15px;
+
+}
+
+.tertiary {
+    font-size: 1rem;
+    font-family: 'Merienda', cursive;
+    margin: 4px;
+    padding: 8px 15px;
+
+}
+
+
+.custom_heading {
+    position: relative;
+}
+
+.custom_heading::before {
+    position: absolute;
+    content: "";
+    top: 22px;
+    left: -60px;
+    width: 45px;
+    height: 40px;
+    background-image: url(../images/herbal.png);
+    background-size: cover;
+}
+
+#about {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 2rem;
+    margin-bottom: 50px;
+}
+
+.about_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    box-shadow: 0px 0px 5px 4px rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0px 0px 5px black);
+    /* opacity: 0.4; */
+}
+
+
+.about_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    padding: 10px;
+
+}
+
+.about_bg h1{
+    margin: 4px 4px;
+    /* align-items: center; */
+}
+
+/* footer designing  */
+footer {
+    background-color: black;
+    position: sticky;
+    color: white;
+    padding: 10px 3px;
+    text-align: center;
+}
